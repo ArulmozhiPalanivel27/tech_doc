@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Playfair+Display:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Playfair+Display:ital,wght@1,900&family=Saira+Stencil+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Milonga&family=Playfair+Display:ital,wght@1,900&family=Saira+Stencil+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Kaushan+Script&family=Milonga&family=Playfair+Display:ital,wght@1,900&family=Saira+Stencil+One&display=swap');
+
+body {
+   background-image: url('./assets/computer.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  width: 200px;
+  height: auto;
+  margin: 20px 50px 40px 60px;
+  padding: 0px 60px 90px 100px ;
+ opacity: 25;
+
+ }
+
+* {
+margin: 0px;
+padding: 0px;
+}
+
+html,body {
+min-width: 280px;
+}
+
+header{
+ text-align: center;
+ color: #2F4F4F;
+ margin: 10px;
+font-size:28px;
+font-weight:; 
+font-family: 'Fascinate Inline', cursive;
+font-style: ;
+
+}
+
+/*  starts side nav list font family */
+
+#navbar{
+ position: fixed;
+ width:280px;
+ height: 100%;
+border-right: solid;
+ top: 0px;
+ left: 0px;
+ min-width:200px;
+ font-family:'Kaushan Script', cursive;   
+ font-style:bold;
+ background-color: cornsilk;
+ letter-spacing: 1px;
+ padding: 1.5em;
+ font-weight:bold ;
+ line-height: 1.5em;
+
+
+}
+#navbar ul{
+ height:80%;
+ overflow-y:auto;
+ overflow-x:hidden;
+ font-family: ;
+ font-style: ;
+ line-height: 1.5em;
+
+}
+#navbar li{
+ list-style: none;
+ color: #808080;
+ border:1px solid black;
+ width: 100%;
+ position: relative;
+ font-size: 20px;
+ padding:0.8em;
+ padding-left:50px;
+ list-style: none;
+ left:-50px;
+}
+#navbar ul a{
+ text-decoration: none;
+ }
+#navbar ul li:hover{
+  background-color: black;
+}
+
+/* side nav list font family end */
+
+/* starts side nav list font family  */
+
+#main-doc{
+ position:absolute;
+  margin-left:220px;
+ padding:50px;
+font-size: 25px;
+ margin-bottom: 100px;
+ font-family: 'Milonga', cursive; 
+ font-weight: ;
+ font-style: ;
+ width: 900px ; 
+ height: 1000px;
+ line-height: 1.4em;
+
+}
+
+#main-doc header{
+ text-align:left;
+ color: #000000;
+ font-family: ;
+ font-style: ;
+
+}
+code{
+ display:block;
+ text-align: left;
+ white-space:pre ;
+ position: relative;
+ word-break: normal;
+ word-wrap: normal;
+ line-height: 1.4em;
+ background-color:#f7f7f7;
+ padding:15px;
+ margin:10px;
+ border-radius:5px;
+color:	#00CED1;
+ }
+ section article{
+   color: #121414;
+   margin: 20px;
+
+ }
+ section article dt{
+   font-family: 'Saira Stencil One', cursive;
+   color: rgb(36, 79, 160);           
+ }
+
+ 
+ section p{
+   margin: 18px;
+   font-size: 25px;
+ 
+  }
+ section li{
+   margin: 25px;
+   font-size: 25px;
+
+ }/
+@media only screen and (max-width: 815px) {
+    /* For mobile phones: */
+ #navbar ul{
+         border:1px solid;
+          } 
+ #navbar{
+  background-color:white;
+  position:absolute;
+  top:0;
+  padding:0;
+  margin: 0;
+  width:100%;
+  max-height:300px;
+  border:none;
+  z-index:1;
+  border-bottom:1px solid;
+}
+#main-doc{
+position: relative;
+margin-left:0px;
+margin-top:280px;
+background-color: white;
+}
+}
+@media only screen and (max-width: 500px) {
+#main-doc{
+  margin-left:-30px;
+}
+code{
+margin-left:-10px;
+width:100%;
+padding:15px;
+padding-left:10px;
+padding-right:45px;
+min-width:233px;
+}
+}
